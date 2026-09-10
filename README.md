@@ -1,4 +1,4 @@
-# Koushik Rajanala — Developer Portfolio
+# Charith Koushik Rajanala — Developer Portfolio
 
 A modern, responsive student developer portfolio built with semantic HTML5, CSS3, and vanilla JavaScript.
 
