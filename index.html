@@ -1,70 +1,502 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Koushik Rajanala — Student Developer and aspiring Software Developer portfolio.">
+  <meta name="description" content="Koushik Rajanala — BCA student and aspiring Software Developer and Engineer.">
   <meta name="author" content="Koushik Rajanala">
-  <title>Koushik Rajanala | Student Developer</title>
+  <title>Koushik Rajanala | Software Developer</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <!-- HEADER -->
+
   <header class="site-header" id="top">
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Koushik Rajanala home">KR<span>.</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation"><span></span><span></span><span></span></button>
-      <div class="nav-links" id="nav-menu">
-        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#achievements">Achievements</a><a href="#contact" class="nav-cta">Contact</a>
-      </div>
-    </nav>
+
+```
+  <a class="brand" href="#top" aria-label="Koushik Rajanala home">
+    KR<span>.</span>
+  </a>
+
+  <button
+    class="nav-toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="nav-menu"
+    aria-label="Open navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="nav-links" id="nav-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </div>
+
+</nav>
+```
+
   </header>
 
   <main>
-    <section class="hero section container">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
-        <h1>Hi, I'm <span>Koushik Rajanala.</span><br>Student Developer.</h1>
-        <p class="hero-text">I build thoughtful digital experiences, solve problems with code, and continuously learn to become a stronger software developer.</p>
-        <div class="hero-actions"><a class="button primary" href="#projects">View my work</a><a class="button secondary" href="#contact">Let's connect <span>↗</span></a></div>
-        <div class="hero-meta"><span>Based in India</span><span>•</span><span>Open to internships, hackathons &amp; projects</span></div>
+
+```
+<!-- HERO -->
+<section class="hero section container">
+
+  <div class="hero-copy reveal">
+
+    <p class="eyebrow">
+      <span class="status-dot"></span>
+      Open to learning & opportunities
+    </p>
+
+    <h1>
+      Hi, I'm <span>Koushik Rajanala.</span><br>
+      Student Developer.
+    </h1>
+
+    <p class="hero-text">
+      I'm a BCA student passionate about software development and engineering.
+      I enjoy learning new technologies, solving problems with code, and
+      continuously improving my technical skills through hands-on practice.
+    </p>
+
+    <div class="hero-actions">
+      <a class="button primary" href="#about">
+        About me
+      </a>
+
+      <a class="button secondary" href="#contact">
+        Let's connect <span>↗</span>
+      </a>
+    </div>
+
+    <div class="hero-meta">
+      <span>Based in India</span>
+      <span>•</span>
+      <span>Aspiring Software Developer & Engineer</span>
+    </div>
+
+  </div>
+
+
+  <div class="hero-visual reveal" aria-hidden="true">
+
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+
+    <div class="code-card">
+
+      <div class="window-bar">
+        <i></i>
+        <i></i>
+        <i></i>
+        <span>developer.js</span>
       </div>
-      <div class="hero-visual reveal" aria-hidden="true">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="code-card">
-          <div class="window-bar"><i></i><i></i><i></i><span>developer.js</span></div>
-          <pre><code><span class="purple">const</span> developer = {
-  name: <span class="cyan">"Koushik Rajanala"</span>,
-  role: <span class="cyan">"Student Developer"</span>,
-  focus: [
-    <span class="cyan">"software development"</span>,
-    <span class="cyan">"problem solving"</span>
-  ],
-  mindset: <span class="cyan">"keep building"</span>
+
+      <pre><code><span class="purple">const</span> developer = {
+```
+
+name: <span class="cyan">"Koushik Rajanala"</span>,
+role: <span class="cyan">"BCA Student"</span>,
+goal: <span class="cyan">"Software Development"</span>,
+focus: [ <span class="cyan">"problem solving"</span>, <span class="cyan">"software engineering"</span>
+],
+mindset: <span class="cyan">"keep learning"</span>
 };</code></pre>
-          <div class="cursor-line"><span></span></div>
-        </div>
+
+```
+      <div class="cursor-line">
+        <span></span>
       </div>
-    </section>
 
-    <section class="section" id="about"><div class="container two-col"><div class="section-heading reveal"><p class="eyebrow">01 / About</p><h2>Building skills.<br><span>Creating impact.</span></h2></div><div class="about-copy reveal"><p>I'm a student developer passionate about turning ideas into useful, well-crafted software. I enjoy learning by building, experimenting with new technologies, and tackling challenges that push me beyond my comfort zone.</p><p>My goal is to grow into a versatile software developer while contributing to meaningful products, collaborative teams, and open-source or community-driven projects.</p><div class="signature">Koushik<span>_</span></div></div></div></section>
+    </div>
+  </div>
 
-    <section class="section section-alt" id="skills"><div class="container"><div class="section-heading centered reveal"><p class="eyebrow">02 / Skills</p><h2>My technical toolkit</h2><p>Technologies and concepts I'm learning and using to turn ideas into working solutions.</p></div><div class="skills-grid reveal"><article class="skill-card"><span class="skill-number">01</span><h3>Languages</h3><p>[ADD LANGUAGES — e.g. Python, Java, C, JavaScript]</p></article><article class="skill-card"><span class="skill-number">02</span><h3>Web Development</h3><p>[ADD WEB SKILLS — e.g. HTML, CSS, JavaScript]</p></article><article class="skill-card"><span class="skill-number">03</span><h3>Tools &amp; Platforms</h3><p>[ADD TOOLS — e.g. Git, GitHub, VS Code]</p></article><article class="skill-card"><span class="skill-number">04</span><h3>Core Concepts</h3><p>[ADD CONCEPTS — e.g. DSA, OOP, DBMS, APIs]</p></article></div></div></section>
+</section>
 
-    <section class="section" id="projects"><div class="container"><div class="section-heading row-heading reveal"><div><p class="eyebrow">03 / Projects</p><h2>Things I've built</h2></div><span class="section-note">Selected work</span></div><div class="projects-grid"><article class="project-card featured reveal"><div class="project-top"><span class="project-tag">Featured project</span><span>01</span></div><div class="project-body"><h3>[ADD PROJECT NAME]</h3><p>[ADD PROJECT DESCRIPTION — What problem did you solve? What did you build? What was your contribution?]</p><div class="tech-list"><span>[TECH]</span><span>[TECH]</span><span>[TECH]</span></div><div class="project-links"><a href="#" aria-label="View project on GitHub">GitHub ↗</a><a href="#" aria-label="View live project">Live demo ↗</a></div></div></article><article class="project-card reveal"><div class="project-top"><span class="project-tag">Project</span><span>02</span></div><div class="project-body"><h3>[ADD PROJECT NAME]</h3><p>[ADD SHORT PROJECT DESCRIPTION]</p><div class="tech-list"><span>[TECH]</span><span>[TECH]</span></div><div class="project-links"><a href="#">GitHub ↗</a><a href="#">Demo ↗</a></div></div></article><article class="project-card reveal"><div class="project-top"><span class="project-tag">Project</span><span>03</span></div><div class="project-body"><h3>[ADD PROJECT NAME]</h3><p>[ADD SHORT PROJECT DESCRIPTION]</p><div class="tech-list"><span>[TECH]</span><span>[TECH]</span></div><div class="project-links"><a href="#">GitHub ↗</a><a href="#">Demo ↗</a></div></div></article></div></div></section>
 
-    <section class="section section-alt" id="education"><div class="container"><div class="section-heading reveal"><p class="eyebrow">04 / Education</p><h2>My learning journey</h2></div><div class="timeline reveal"><article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">[YEAR — PRESENT]</p><h3>[DEGREE / COURSE]</h3><p>[INSTITUTION NAME]</p><p class="muted">[ADD RELEVANT COURSEWORK, CGPA/GRADE IF YOU WANT TO DISPLAY IT]</p></div></article><article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">[YEAR]</p><h3>[PREVIOUS EDUCATION]</h3><p>[INSTITUTION NAME]</p></div></article></div></div></section>
+<!-- ABOUT -->
+<section class="section" id="about">
 
-    <section class="section" id="achievements"><div class="container"><div class="section-heading centered reveal"><p class="eyebrow">05 / Achievements</p><h2>Milestones &amp; certifications</h2></div><div class="achievement-grid reveal"><article><span>✦</span><h3>[ADD ACHIEVEMENT]</h3><p>[ADD DETAILS — competition, rank, award, hackathon, etc.]</p></article><article><span>◇</span><h3>[ADD CERTIFICATION]</h3><p>[ISSUER] · [YEAR]</p></article><article><span>△</span><h3>[ADD ACHIEVEMENT]</h3><p>[ADD DETAILS]</p></article></div></div></section>
+  <div class="container two-col">
 
-    <section class="section section-alt"><div class="container strengths"><div class="section-heading reveal"><p class="eyebrow">06 / Why me</p><h2>What I bring<br><span>to the table.</span></h2></div><div class="strength-list reveal"><div><span>01</span><h3>Curiosity</h3><p>I enjoy understanding how things work and learning technologies through hands-on practice.</p></div><div><span>02</span><h3>Problem solving</h3><p>I approach challenges methodically and keep iterating until I find a practical solution.</p></div><div><span>03</span><h3>Growth mindset</h3><p>I value feedback, consistent practice, and turning mistakes into better engineering habits.</p></div></div></div></section>
+    <div class="section-heading reveal">
+      <p class="eyebrow">01 / About</p>
 
-    <section class="contact section" id="contact"><div class="container contact-box reveal"><div><p class="eyebrow">07 / Contact</p><h2>Have an idea?<br><span>Let's talk.</span></h2><p>I'm always interested in learning, building, and meeting people who are working on interesting things.</p></div><div class="contact-links"><a href="mailto:[ADD PROFESSIONAL EMAIL]">[ADD PROFESSIONAL EMAIL] <span>↗</span></a><a href="[ADD LINKEDIN LINK]">LinkedIn <span>↗</span></a><a href="[ADD GITHUB LINK]">GitHub <span>↗</span></a></div></div></section>
+      <h2>
+        Learning skills.<br>
+        <span>Building my future.</span>
+      </h2>
+    </div>
+
+    <div class="about-copy reveal">
+
+      <p>
+        I'm Koushik Rajanala, a Bachelor of Computer Applications (BCA)
+        student with a strong interest in software development and
+        engineering. I'm passionate about understanding how technology
+        works and using programming to solve practical problems.
+      </p>
+
+      <p>
+        As I continue my academic journey, I'm focused on strengthening
+        my programming fundamentals, improving my problem-solving ability,
+        and gaining practical experience with modern software technologies.
+        My goal is to grow into a skilled and versatile software developer
+        and engineer.
+      </p>
+
+      <div class="signature">
+        Koushik<span>_</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+
+  <div class="container">
+
+    <div class="section-heading centered reveal">
+
+      <p class="eyebrow">02 / Skills</p>
+
+      <h2>My technical toolkit</h2>
+
+      <p>
+        Technologies and concepts I'm learning and developing
+        through my academic journey and personal practice.
+      </p>
+
+    </div>
+
+
+    <div class="skills-grid reveal">
+
+      <article class="skill-card">
+        <span class="skill-number">01</span>
+
+        <h3>Programming</h3>
+
+        <p>
+          Add your programming languages here.
+          For example: Python, Java, C, JavaScript.
+        </p>
+      </article>
+
+
+      <article class="skill-card">
+        <span class="skill-number">02</span>
+
+        <h3>Web Development</h3>
+
+        <p>
+          Add your web development skills here.
+          For example: HTML, CSS, JavaScript.
+        </p>
+      </article>
+
+
+      <article class="skill-card">
+        <span class="skill-number">03</span>
+
+        <h3>Tools & Platforms</h3>
+
+        <p>
+          Git, GitHub, VS Code and other development
+          tools you are currently learning.
+        </p>
+      </article>
+
+
+      <article class="skill-card">
+        <span class="skill-number">04</span>
+
+        <h3>Core Concepts</h3>
+
+        <p>
+          Add concepts you are studying such as
+          DSA, OOP, DBMS, Computer Networks and APIs.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EDUCATION -->
+<section class="section section-alt" id="education">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+
+      <p class="eyebrow">03 / Education</p>
+
+      <h2>My learning journey</h2>
+
+    </div>
+
+
+    <div class="timeline reveal">
+
+      <article class="timeline-item">
+
+        <span class="timeline-dot"></span>
+
+        <div>
+
+          <p class="timeline-date">
+            2023 — 2026
+          </p>
+
+          <h3>
+            Bachelor of Computer Applications (BCA)
+          </h3>
+
+          <p>
+            GH Raisoni College of Engineering and Management, Nagpur
+          </p>
+
+          <p class="muted">
+            CGPA: 7.8
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+<section class="section" id="achievements">
+
+  <div class="container">
+
+    <div class="section-heading centered reveal">
+
+      <p class="eyebrow">04 / Achievements</p>
+
+      <h2>Milestones & certifications</h2>
+
+      <p>
+        Achievements, certifications and milestones will be added
+        as I continue developing my skills and gaining experience.
+      </p>
+
+    </div>
+
+
+    <div class="achievement-grid reveal">
+
+      <article>
+        <span>✦</span>
+
+        <h3>Continuous Learning</h3>
+
+        <p>
+          Currently focused on strengthening programming,
+          software development and problem-solving skills.
+        </p>
+
+      </article>
+
+
+      <article>
+        <span>◇</span>
+
+        <h3>Academic Journey</h3>
+
+        <p>
+          Pursuing a BCA degree with a focus on building
+          a strong foundation in computer applications.
+        </p>
+
+      </article>
+
+
+      <article>
+        <span>△</span>
+
+        <h3>Future Goals</h3>
+
+        <p>
+          Working toward opportunities in software development,
+          software engineering, internships and technical communities.
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- WHY ME -->
+<section class="section section-alt">
+
+  <div class="container strengths">
+
+    <div class="section-heading reveal">
+
+      <p class="eyebrow">05 / Why me</p>
+
+      <h2>
+        What I bring<br>
+        <span>to the table.</span>
+      </h2>
+
+    </div>
+
+
+    <div class="strength-list reveal">
+
+      <div>
+        <span>01</span>
+
+        <h3>Curiosity</h3>
+
+        <p>
+          I enjoy understanding how things work and exploring
+          new technologies through hands-on learning.
+        </p>
+      </div>
+
+
+      <div>
+        <span>02</span>
+
+        <h3>Problem Solving</h3>
+
+        <p>
+          I enjoy approaching challenges logically and
+          developing better solutions through practice.
+        </p>
+      </div>
+
+
+      <div>
+        <span>03</span>
+
+        <h3>Growth Mindset</h3>
+
+        <p>
+          I believe consistent learning, feedback and practice
+          are essential for becoming a better software developer.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+
+  <div class="container contact-box reveal">
+
+    <div>
+
+      <p class="eyebrow">06 / Contact</p>
+
+      <h2>
+        Have an idea?<br>
+        <span>Let's talk.</span>
+      </h2>
+
+      <p>
+        I'm interested in learning, building new things,
+        connecting with developers and exploring opportunities
+        in software development and engineering.
+      </p>
+
+    </div>
+
+
+    <div class="contact-links">
+
+      <a href="mailto:koushikrajanala223@gmail.com">
+        koushikrajanala223@gmail.com
+        <span>↗</span>
+      </a>
+
+      <!-- Add your LinkedIn URL here -->
+      <a href="#" aria-label="Koushik Rajanala LinkedIn">
+        LinkedIn
+        <span>↗</span>
+      </a>
+
+      <!-- Add your GitHub URL here -->
+      <a href="#" aria-label="Koushik Rajanala GitHub">
+        GitHub
+        <span>↗</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+```
+
   </main>
 
-  <footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Koushik Rajanala. Built with curiosity &amp; code.</p><a href="#top">Back to top ↑</a></div></footer>
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+```
+<div class="container footer-inner">
+
+  <p>
+    © <span id="year"></span>
+    Koushik Rajanala.
+    Built with curiosity &amp; code.
+  </p>
+
+  <a href="#top">
+    Back to top ↑
+  </a>
+
+</div>
+```
+
+  </footer>
+
   <script src="script.js"></script>
+
 </body>
 </html>
